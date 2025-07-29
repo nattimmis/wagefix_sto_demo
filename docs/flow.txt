@@ -1,0 +1,15 @@
+Define alcohol/spirits deal data 
+→ wrap underlying asset metadata 
+→ issue RWA tokens via Mobius platform 
+→ link to smart contracts on Solana or Ethereum 
+→ register legal wrapper (e.g. LEXDAO or Swiss-based DLT registry) 
+→ attach compliance logic (KYC/AML/zkKYC) 
+→ bind off-chain valuation oracle (e.g. Chainlink or Mobius-native API) 
+→ secure custody via Taurus or Sygnum 
+→ map token to ISIN or internal asset ID 
+→ onboard investors via web3 wallet 
+→ whitelist wallets through validator multisig 
+→ enable token trading on permissioned pools 
+→ automate reporting via GPT/LLM for real-time audits 
+→ connect fiat ramps for redemption or settlement in XCHF or USDC 
+→ launch token across both Swiss and US entities via mirrored issuance structures with cross-border compliance layer.

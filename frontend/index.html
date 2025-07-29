@@ -1,18 +1,1 @@
-<html>
-  <body>
-    <h2>WageFix STO Balance</h2>
-    <div id="balance"></div>
-    <script src="https://cdn.jsdelivr.net/npm/ethers/dist/ethers.min.js"></script>
-    <script>
-      const provider = new ethers.providers.JsonRpcProvider("https://your_rpc_url");
-      const signer = provider.getSigner();
-      const contract = new ethers.Contract("YOUR_CONTRACT_ADDRESS", ABI, signer);
-      async function getBalance() {
-        const address = await signer.getAddress();
-        const bal = await contract.balanceOf(address);
-        document.getElementById('balance').innerText = "Balance: " + bal.toString();
-      }
-      getBalance();
-    </script>
-  </body>
-</html>
+<html><body><h1>Wallet Balance</h1><div id="balance"></div></body></html>

@@ -1,18 +1,15 @@
-# 💼 WageFix STO Demo (Mobius-Ready)
+# WageFix STO Demo — Mobius-Grade RWA Tokenization
 
-> Security Token Offering system powered by Kafka, ERC1400, Rust, and Autonomous Agents.  
-> Built for Mobius-style RWA systems that connect real-world value with self-upgrading tokenized AI protocols.
+Real-world wage → on-chain equity → automated dividend emission.
 
-[![Status: Actively Maintained](https://img.shields.io/badge/status-active-success)](https://github.com/nattimmis/wagefix_sto_demo)
-[![Built for Mobius Protocol](https://img.shields.io/badge/Built%20for-Mobius-red)](https://mobius.network)
+## Features
+- ERC1400 compliance
+- Kafka micro-agents (Rust/Python)
+- Frontend wallet viewer
+- Compliance scaffold (KYC, zkKYC, custodianship)
 
----
+## Flow
+$(cat docs/flow.txt)
 
-## 🧠 Architecture Overview
-
-[WageEarned] → [Kafka Topic] → [Rust Agent] → [ERC1400 SC] → [User Wallet]
-                                              ↓
-                                    [sto-issued Kafka Log]
-## 🎥 Demo
-
-[Watch Terminal Demo on Asciinema](https://asciinema.org/a/XXXXXXXX)
+## Keywords
+$(cat docs/keywords.txt)

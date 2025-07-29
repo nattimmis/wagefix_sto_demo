@@ -1,0 +1,5 @@
+[ Wage Kafka ] → [ Rust Agent ] → [ Solidity Contract: ERC1400 ]
+                                       ↓
+                             [ sto-issued Kafka Topic ]
+                                       ↓
+                            [ Dividend Agent / Wallet Viewer ]

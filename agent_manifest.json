@@ -5,26 +5,19 @@
       "language": "Rust",
       "topic": "wage-earned",
       "action": "issueTokens",
-      "description": "High-performance wage event listener that issues tokens via smart contract using web3.rs"
+      "description": "Listens to Kafka and calls Solidity contract via web3"
     },
     {
       "name": "python_dividend_emitter",
       "language": "Python",
       "topic": "sto-dividend-paid",
       "action": "emitDividend",
-      "description": "Dividend payout agent triggered by on-chain token holdings and Kafka event logic"
+      "description": "Emits dividends to Kafka topic based on RWA logic"
     },
     {
-      "name": "manual_cli_issuer",
-      "language": "Bash",
-      "topic": "manual-test",
-      "action": "triggerTokenIssuance",
-      "description": "CLI script that sends a mock wage event to Kafka for manual testing"
+      "name": "frontend_wallet_viewer",
+      "language": "ReactJS",
+      "description": "Visual wallet dashboard using Ethers.js"
     }
-  ],
-  "topics": [
-    "wage-earned",
-    "sto-issued",
-    "sto-dividend-paid"
   ]
 }
