@@ -1,21 +1,18 @@
-# 💼 WageFix STO Demo
+# 💼 WageFix STO Demo (Mobius-Ready)
 
-A demo for streaming wage events into security tokens using Kafka, ERC1400-inspired smart contracts, and frontend viewing.
+> Security Token Offering system powered by Kafka, ERC1400, Rust, and Autonomous Agents.  
+> Built for Mobius-style RWA systems that connect real-world value with self-upgrading tokenized AI protocols.
 
-## Components
+[![Status: Actively Maintained](https://img.shields.io/badge/status-active-success)](https://github.com/nattimmis/wagefix_sto_demo)
+[![Built for Mobius Protocol](https://img.shields.io/badge/Built%20for-Mobius-red)](https://mobius.network)
 
-- Smart contract: `contracts/WageFixSTO.sol`
-- Kafka listener: `kafka/wage_to_sto_producer.py`
-- Hardhat deploy script: `scripts/deploy.js`
-- Frontend: `frontend/index.html`
-- Test suite: `test/sto.test.js`
+---
 
-## Flow Diagram
+## 🧠 Architecture Overview
 
-Wage → Kafka `wage-earned` → `wage_to_sto_producer.py` → issueTokens() → Wallet → Dividends/Burn via Kafka
+[WageEarned] → [Kafka Topic] → [Rust Agent] → [ERC1400 SC] → [User Wallet]
+                                              ↓
+                                    [sto-issued Kafka Log]
+## 🎥 Demo
 
-## Next Steps
-
-1. `npm install --save-dev hardhat`
-2. Compile & deploy with `npx hardhat run scripts/deploy.js --network localhost`
-3. Setup `.env` based on `.env.example`
+[Watch Terminal Demo on Asciinema](https://asciinema.org/a/XXXXXXXX)
