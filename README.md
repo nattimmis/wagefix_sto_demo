@@ -1,4 +1,4 @@
-# WageFix STO Demo — Mobius-Grade RWA Tokenization
+# WageFix STO Demo — Client-Grade RWA Tokenization
 
 Real-world wage → on-chain equity → automated dividend emission.
 
