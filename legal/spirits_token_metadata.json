@@ -1,1 +1,6 @@
-{"asset": "Barrel-aged Whisky", "value": "CHF 2500"}
+{
+  "asset": "Barrel-aged Whisky",
+  "value": "CHF 2500",
+  "legalHash": "b120d4945812871371f8055c902493ec10f75f38bd916f7c639e959cc329784b",
+  "legalLink": "ipfs://null"
+}

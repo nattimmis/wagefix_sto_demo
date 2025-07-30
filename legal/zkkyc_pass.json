@@ -1,0 +1,7 @@
+{
+  "wallet": "0x123...abc",
+  "passport_valid": true,
+  "face_match": true,
+  "country": "CH",
+  "pep_check": false
+}
