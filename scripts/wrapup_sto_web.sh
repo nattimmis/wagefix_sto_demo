@@ -1,3 +1,11 @@
+#!/bin/bash
+set -e
+
+echo "📁 Create frontend folder"
+mkdir -p ~/Desktop/hyperlog/wagefix-sto-demo/frontend
+
+echo "🌍 Generate investor landing page HTML"
+cat <<EOF > ~/Desktop/hyperlog/wagefix-sto-demo/frontend/index.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -35,7 +43,7 @@
     async function fetchPrice() {
       const res = await fetch("http://localhost:8000/price");
       const data = await res.json();
-      document.getElementById("price").innerText = "$" + data.price_usd;
+      document.getElementById("price").innerText = "\$" + data.price_usd;
     }
     async function checkMint() {
       const res = await fetch("http://localhost:8000/mint_status");
@@ -49,3 +57,19 @@
   </script>
 </body>
 </html>
+EOF
+
+echo "🧾 Generate dummy legal document PDF"
+echo "This document represents proof of tokenized asset rights." > legal.txt
+enscript legal.txt -o - | ps2pdf - ~/Desktop/hyperlog/wagefix-sto-demo/legal/spirit_token_terms.pdf
+rm legal.txt
+
+echo "🚀 Serve frontend on port 7777"
+cd ~/Desktop/hyperlog/wagefix-sto-demo/frontend
+nohup python3 -m http.server 7777 > ../frontend.log 2>&1 &
+
+echo "📦 Final GitHub commit"
+cd ~/Desktop/hyperlog/wagefix-sto-demo
+git add .
+git commit -m "feat: Add investor landing page, serve via Python, legal PDF prep"
+git push origin main
