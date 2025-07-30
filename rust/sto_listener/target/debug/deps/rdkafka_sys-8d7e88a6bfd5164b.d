@@ -1,0 +1,10 @@
+/home/hyperlog/Desktop/hyperlog/wagefix-sto-demo/rust/sto_listener/target/debug/deps/librdkafka_sys-8d7e88a6bfd5164b.rmeta: /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/lib.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/bindings.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/helpers.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/types.rs
+
+/home/hyperlog/Desktop/hyperlog/wagefix-sto-demo/rust/sto_listener/target/debug/deps/librdkafka_sys-8d7e88a6bfd5164b.rlib: /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/lib.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/bindings.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/helpers.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/types.rs
+
+/home/hyperlog/Desktop/hyperlog/wagefix-sto-demo/rust/sto_listener/target/debug/deps/rdkafka_sys-8d7e88a6bfd5164b.d: /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/lib.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/bindings.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/helpers.rs /home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/types.rs
+
+/home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/lib.rs:
+/home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/bindings.rs:
+/home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/helpers.rs:
+/home/hyperlog/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/src/types.rs:

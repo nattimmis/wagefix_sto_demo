@@ -1,0 +1,1 @@
+/home/hyperlog/Desktop/hyperlog/wagefix-sto-demo/rust/sto_listener/target/debug/sto_listener: /home/hyperlog/Desktop/hyperlog/wagefix-sto-demo/rust/sto_listener/src/contracts/WageFixSTO.abi.json /home/hyperlog/Desktop/hyperlog/wagefix-sto-demo/rust/sto_listener/src/main.rs

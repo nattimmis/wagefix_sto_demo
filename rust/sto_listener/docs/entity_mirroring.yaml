@@ -1,0 +1,9 @@
+SwissIssuer:
+  name: WageFix Spirits AG
+  domicile: Zurich
+  registry: lexdao.eth
+
+USMirror:
+  name: WageFix Inc.
+  registered_agent: Wyoming
+  dlt_bridge: ethereum-spl

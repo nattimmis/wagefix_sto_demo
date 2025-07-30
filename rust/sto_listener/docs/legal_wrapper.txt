@@ -1,0 +1,4 @@
+Entity: WageFix Spirits AG
+Jurisdiction: Zug, Switzerland
+DLT-Registry: lexdao.eth
+Registry Hash: 0xF1NMA...
